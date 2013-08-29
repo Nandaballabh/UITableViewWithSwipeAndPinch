@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8587CBC17CF20C100A4E2CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8587CBB17CF20C100A4E2CA /* UIKit.framework */; };
+		B8587CBE17CF20C100A4E2CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8587CBD17CF20C100A4E2CA /* Foundation.framework */; };
+		B8587CC017CF20C100A4E2CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8587CBF17CF20C100A4E2CA /* CoreGraphics.framework */; };
+		B8587CC617CF20C100A4E2CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8587CC417CF20C100A4E2CA /* InfoPlist.strings */; };
+		B8587CC817CF20C100A4E2CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8587CC717CF20C100A4E2CA /* main.m */; };
+		B8587CCC17CF20C100A4E2CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8587CCB17CF20C100A4E2CA /* AppDelegate.m */; };
+		B8587CCE17CF20C100A4E2CA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B8587CCD17CF20C100A4E2CA /* Default.png */; };
+		B8587CD017CF20C100A4E2CA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8587CCF17CF20C100A4E2CA /* Default@2x.png */; };
+		B8587CD217CF20C100A4E2CA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8587CD117CF20C100A4E2CA /* Default-568h@2x.png */; };
+		B8587CD517CF20C100A4E2CA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8587CD417CF20C100A4E2CA /* MasterViewController.m */; };
+		B8587CD817CF20C100A4E2CA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8587CD717CF20C100A4E2CA /* DetailViewController.m */; };
+		B8587CDB17CF20C100A4E2CA /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8587CD917CF20C100A4E2CA /* MasterViewController.xib */; };
+		B8587CDE17CF20C100A4E2CA /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8587CDC17CF20C100A4E2CA /* DetailViewController.xib */; };
+		B8587CE617CF20C100A4E2CA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8587CE517CF20C100A4E2CA /* SenTestingKit.framework */; };
+		B8587CE717CF20C100A4E2CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8587CBB17CF20C100A4E2CA /* UIKit.framework */; };
+		B8587CE817CF20C100A4E2CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8587CBD17CF20C100A4E2CA /* Foundation.framework */; };
+		B8587CF017CF20C100A4E2CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8587CEE17CF20C100A4E2CA /* InfoPlist.strings */; };
+		B8587CF317CF20C100A4E2CA /* TableViewPinchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8587CF217CF20C100A4E2CA /* TableViewPinchTests.m */; };
+		B8587D0117CF243B00A4E2CA /* NBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8587D0017CF243B00A4E2CA /* NBTableViewController.m */; };
+		B8587D0217CF243B00A4E2CA /* NBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8587D0017CF243B00A4E2CA /* NBTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8587CE917CF20C100A4E2CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8587CB017CF20C000A4E2CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8587CB717CF20C100A4E2CA;
+			remoteInfo = TableViewPinch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B8587CB817CF20C100A4E2CA /* TableViewPinch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewPinch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8587CBB17CF20C100A4E2CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B8587CBD17CF20C100A4E2CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B8587CBF17CF20C100A4E2CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B8587CC317CF20C100A4E2CA /* TableViewPinch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewPinch-Info.plist"; sourceTree = "<group>"; };
+		B8587CC517CF20C100A4E2CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B8587CC717CF20C100A4E2CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8587CC917CF20C100A4E2CA /* TableViewPinch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableViewPinch-Prefix.pch"; sourceTree = "<group>"; };
+		B8587CCA17CF20C100A4E2CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B8587CCB17CF20C100A4E2CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B8587CCD17CF20C100A4E2CA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B8587CCF17CF20C100A4E2CA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B8587CD117CF20C100A4E2CA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B8587CD317CF20C100A4E2CA /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		B8587CD417CF20C100A4E2CA /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		B8587CD617CF20C100A4E2CA /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B8587CD717CF20C100A4E2CA /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		B8587CDA17CF20C100A4E2CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		B8587CDD17CF20C100A4E2CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		B8587CE417CF20C100A4E2CA /* TableViewPinchTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewPinchTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8587CE517CF20C100A4E2CA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B8587CED17CF20C100A4E2CA /* TableViewPinchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewPinchTests-Info.plist"; sourceTree = "<group>"; };
+		B8587CEF17CF20C100A4E2CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B8587CF117CF20C100A4E2CA /* TableViewPinchTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewPinchTests.h; sourceTree = "<group>"; };
+		B8587CF217CF20C100A4E2CA /* TableViewPinchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewPinchTests.m; sourceTree = "<group>"; };
+		B8587CFF17CF243B00A4E2CA /* NBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBTableViewController.h; sourceTree = "<group>"; };
+		B8587D0017CF243B00A4E2CA /* NBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8587CB517CF20C100A4E2CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8587CBC17CF20C100A4E2CA /* UIKit.framework in Frameworks */,
+				B8587CBE17CF20C100A4E2CA /* Foundation.framework in Frameworks */,
+				B8587CC017CF20C100A4E2CA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8587CE017CF20C100A4E2CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8587CE617CF20C100A4E2CA /* SenTestingKit.framework in Frameworks */,
+				B8587CE717CF20C100A4E2CA /* UIKit.framework in Frameworks */,
+				B8587CE817CF20C100A4E2CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8587CAF17CF20C000A4E2CA = {
+			isa = PBXGroup;
+			children = (
+				B8587CC117CF20C100A4E2CA /* TableViewPinch */,
+				B8587CEB17CF20C100A4E2CA /* TableViewPinchTests */,
+				B8587CBA17CF20C100A4E2CA /* Frameworks */,
+				B8587CB917CF20C100A4E2CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8587CB917CF20C100A4E2CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8587CB817CF20C100A4E2CA /* TableViewPinch.app */,
+				B8587CE417CF20C100A4E2CA /* TableViewPinchTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8587CBA17CF20C100A4E2CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8587CBB17CF20C100A4E2CA /* UIKit.framework */,
+				B8587CBD17CF20C100A4E2CA /* Foundation.framework */,
+				B8587CBF17CF20C100A4E2CA /* CoreGraphics.framework */,
+				B8587CE517CF20C100A4E2CA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8587CC117CF20C100A4E2CA /* TableViewPinch */ = {
+			isa = PBXGroup;
+			children = (
+				B8587CCA17CF20C100A4E2CA /* AppDelegate.h */,
+				B8587CCB17CF20C100A4E2CA /* AppDelegate.m */,
+				B8587CFF17CF243B00A4E2CA /* NBTableViewController.h */,
+				B8587D0017CF243B00A4E2CA /* NBTableViewController.m */,
+				B8587CD317CF20C100A4E2CA /* MasterViewController.h */,
+				B8587CD417CF20C100A4E2CA /* MasterViewController.m */,
+				B8587CD617CF20C100A4E2CA /* DetailViewController.h */,
+				B8587CD717CF20C100A4E2CA /* DetailViewController.m */,
+				B8587CD917CF20C100A4E2CA /* MasterViewController.xib */,
+				B8587CDC17CF20C100A4E2CA /* DetailViewController.xib */,
+				B8587CC217CF20C100A4E2CA /* Supporting Files */,
+			);
+			path = TableViewPinch;
+			sourceTree = "<group>";
+		};
+		B8587CC217CF20C100A4E2CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8587CC317CF20C100A4E2CA /* TableViewPinch-Info.plist */,
+				B8587CC417CF20C100A4E2CA /* InfoPlist.strings */,
+				B8587CC717CF20C100A4E2CA /* main.m */,
+				B8587CC917CF20C100A4E2CA /* TableViewPinch-Prefix.pch */,
+				B8587CCD17CF20C100A4E2CA /* Default.png */,
+				B8587CCF17CF20C100A4E2CA /* Default@2x.png */,
+				B8587CD117CF20C100A4E2CA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8587CEB17CF20C100A4E2CA /* TableViewPinchTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8587CF117CF20C100A4E2CA /* TableViewPinchTests.h */,
+				B8587CF217CF20C100A4E2CA /* TableViewPinchTests.m */,
+				B8587CEC17CF20C100A4E2CA /* Supporting Files */,
+			);
+			path = TableViewPinchTests;
+			sourceTree = "<group>";
+		};
+		B8587CEC17CF20C100A4E2CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8587CED17CF20C100A4E2CA /* TableViewPinchTests-Info.plist */,
+				B8587CEE17CF20C100A4E2CA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8587CB717CF20C100A4E2CA /* TableViewPinch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8587CF617CF20C100A4E2CA /* Build configuration list for PBXNativeTarget "TableViewPinch" */;
+			buildPhases = (
+				B8587CB417CF20C100A4E2CA /* Sources */,
+				B8587CB517CF20C100A4E2CA /* Frameworks */,
+				B8587CB617CF20C100A4E2CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewPinch;
+			productName = TableViewPinch;
+			productReference = B8587CB817CF20C100A4E2CA /* TableViewPinch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8587CE317CF20C100A4E2CA /* TableViewPinchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8587CF917CF20C100A4E2CA /* Build configuration list for PBXNativeTarget "TableViewPinchTests" */;
+			buildPhases = (
+				B8587CDF17CF20C100A4E2CA /* Sources */,
+				B8587CE017CF20C100A4E2CA /* Frameworks */,
+				B8587CE117CF20C100A4E2CA /* Resources */,
+				B8587CE217CF20C100A4E2CA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8587CEA17CF20C100A4E2CA /* PBXTargetDependency */,
+			);
+			name = TableViewPinchTests;
+			productName = TableViewPinchTests;
+			productReference = B8587CE417CF20C100A4E2CA /* TableViewPinchTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8587CB017CF20C000A4E2CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = nanda;
+			};
+			buildConfigurationList = B8587CB317CF20C000A4E2CA /* Build configuration list for PBXProject "TableViewPinch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B8587CAF17CF20C000A4E2CA;
+			productRefGroup = B8587CB917CF20C100A4E2CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8587CB717CF20C100A4E2CA /* TableViewPinch */,
+				B8587CE317CF20C100A4E2CA /* TableViewPinchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8587CB617CF20C100A4E2CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8587CC617CF20C100A4E2CA /* InfoPlist.strings in Resources */,
+				B8587CCE17CF20C100A4E2CA /* Default.png in Resources */,
+				B8587CD017CF20C100A4E2CA /* Default@2x.png in Resources */,
+				B8587CD217CF20C100A4E2CA /* Default-568h@2x.png in Resources */,
+				B8587CDB17CF20C100A4E2CA /* MasterViewController.xib in Resources */,
+				B8587CDE17CF20C100A4E2CA /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8587CE117CF20C100A4E2CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8587CF017CF20C100A4E2CA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B8587CE217CF20C100A4E2CA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8587CB417CF20C100A4E2CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8587CC817CF20C100A4E2CA /* main.m in Sources */,
+				B8587CCC17CF20C100A4E2CA /* AppDelegate.m in Sources */,
+				B8587CD517CF20C100A4E2CA /* MasterViewController.m in Sources */,
+				B8587CD817CF20C100A4E2CA /* DetailViewController.m in Sources */,
+				B8587D0117CF243B00A4E2CA /* NBTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8587CDF17CF20C100A4E2CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8587CF317CF20C100A4E2CA /* TableViewPinchTests.m in Sources */,
+				B8587D0217CF243B00A4E2CA /* NBTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8587CEA17CF20C100A4E2CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8587CB717CF20C100A4E2CA /* TableViewPinch */;
+			targetProxy = B8587CE917CF20C100A4E2CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8587CC417CF20C100A4E2CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8587CC517CF20C100A4E2CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B8587CD917CF20C100A4E2CA /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8587CDA17CF20C100A4E2CA /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		B8587CDC17CF20C100A4E2CA /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8587CDD17CF20C100A4E2CA /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+		B8587CEE17CF20C100A4E2CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8587CEF17CF20C100A4E2CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8587CF417CF20C100A4E2CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B8587CF517CF20C100A4E2CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8587CF717CF20C100A4E2CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewPinch/TableViewPinch-Prefix.pch";
+				INFOPLIST_FILE = "TableViewPinch/TableViewPinch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B8587CF817CF20C100A4E2CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewPinch/TableViewPinch-Prefix.pch";
+				INFOPLIST_FILE = "TableViewPinch/TableViewPinch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B8587CFA17CF20C100A4E2CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TableViewPinch.app/TableViewPinch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewPinch/TableViewPinch-Prefix.pch";
+				INFOPLIST_FILE = "TableViewPinchTests/TableViewPinchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B8587CFB17CF20C100A4E2CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TableViewPinch.app/TableViewPinch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewPinch/TableViewPinch-Prefix.pch";
+				INFOPLIST_FILE = "TableViewPinchTests/TableViewPinchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8587CB317CF20C000A4E2CA /* Build configuration list for PBXProject "TableViewPinch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8587CF417CF20C100A4E2CA /* Debug */,
+				B8587CF517CF20C100A4E2CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8587CF617CF20C100A4E2CA /* Build configuration list for PBXNativeTarget "TableViewPinch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8587CF717CF20C100A4E2CA /* Debug */,
+				B8587CF817CF20C100A4E2CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B8587CF917CF20C100A4E2CA /* Build configuration list for PBXNativeTarget "TableViewPinchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8587CFA17CF20C100A4E2CA /* Debug */,
+				B8587CFB17CF20C100A4E2CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8587CB017CF20C000A4E2CA /* Project object */;
+}
